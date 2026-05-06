@@ -101,15 +101,6 @@ export const experience = [
   },
   {
   id: 2,
-  role: "Software Automation & Data Intern",
-  org: "Meghal Road Equipment",
-  period: "Sep 2022 – Aug 2023",
-  description: "Built SQL and Python-based data pipelines to process and analyze operational KPIs. Improved data accuracy and reduced manual reporting by designing modular, validated pipeline components and applying SDLC practices.",
-  tags: ["Python", "SQL", "Data Pipelines", "AWS", "SDLC"],
-  type: "experience",
-  },
-  {
-  id: 3,
   role: "Hackathon — AI/Full-Stack Engineer",
   org: "TELUS — AI at the Edge of Innovation",
   period: "Feb 2026",
@@ -118,14 +109,23 @@ export const experience = [
   type: "hackathon",
 },
   {
-  id: 4,
+  id: 3,
   role: "Hackathon — AI Systems Designer",
   org: "University of Toronto — Invisible AI Hackathon",
-  period: "2023",
+  period: "Feb 2025",
   description: "Designed TTCare, an AI-driven predictive maintenance system for public transit using anomaly detection and optimization agents. Proposed a multi-layer architecture combining IoT data, failure prediction, and automated scheduling to reduce delays and improve system reliability.",
   tags: ["AI", "System Design", "Predictive Modeling", "IoT", "Optimization"],
   type: "hackathon",
 },
+  {
+  id: 4,
+  role: "Software Automation & Data Intern",
+  org: "Meghal Road Equipment",
+  period: "Sep 2022 – Aug 2023",
+  description: "Built SQL and Python-based data pipelines to process and analyze operational KPIs. Improved data accuracy and reduced manual reporting by designing modular, validated pipeline components and applying SDLC practices.",
+  tags: ["Python", "SQL", "Data Pipelines", "AWS", "SDLC"],
+  type: "experience",
+  },
 ];
 
 export const achievements = [
