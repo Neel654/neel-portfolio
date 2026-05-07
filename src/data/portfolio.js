@@ -46,7 +46,7 @@ export const projects = [
     tech: ["Java", "LSM-Tree", "WAL", "SST Files", "Bloom Filters", "Concurrency"],
     github: "https://github.com/neel/wrapkv-java",
     featured: true,
-    type: "Systems",
+    type: "System",
   },
   {
     id: 2,
@@ -84,9 +84,87 @@ export const projects = [
     impact: "Processed 20k+ startup records. Found that B2B SaaS startups with technical founders had 2.3× higher Series A conversion rates in the dataset.",
     tech: ["Python", "Pandas", "Plotly", "SQLite", "Jupyter"],
     github: "https://github.com/neel/startup-analytics",
-    featured: false,
+    featured: true,
     type: "Data",
   },
+  {
+  id: 5,
+  title: "AI News Streamer",
+  subtitle: "Real-Time News Aggregation & Sentiment Analysis",
+  description:
+    "Built a live news aggregation platform that polls RSS feeds, analyzes sentiment using NLP, and streams updates to users in real-time. Features automatic deduplication, sentiment scoring, and a responsive feed interface powered by Server-Sent Events.",
+  problem: "News consumption is fragmented across sources, and tracking sentiment trends manually is time-consuming. I wanted a unified, real-time view with automatic sentiment analysis.",
+  impact: "Continuously monitors multiple RSS feeds with intelligent deduplication. Delivers instant sentiment scores and summaries, enabling users to track breaking news and sentiment shifts as they happen.",
+  tech: ["Python", "FastAPI", "NLTK", "SSE", "JavaScript", "Asyncio"],
+  github: "https://github.com/Neel654/AI_News_Streamer",
+  featured: true,
+  type: "Data",
+},
+{
+  id: 6,
+  title: "TMUber Ride-Hailing Simulation",
+  subtitle: "CLI-Based Transportation Platform",
+  description:
+    "Developed a comprehensive ride-hailing system simulation with driver-user matching, city grid navigation, and service request management. Features include fare calculation, zone-based pricing, wallet systems, and distance computation using Manhattan geometry across a 9×9 city block grid.",
+  problem: "Understanding how ride-hailing platforms manage real-time driver assignment, pricing logic, and geographic routing in a constrained urban environment.",
+  impact: "Built a complete terminal-based system with 20+ custom exception handlers for edge cases, OOP design patterns for extensibility, and robust address validation supporting both rides and deliveries across multiple city zones.",
+  tech: ["Java", "OOP Design", "CLI", "Exception Handling", "Data Structures"],
+  github: "https://github.com/Neel654/TmUber",
+  featured: true,
+  type: "Backend",
+},
+{
+  id: 7,
+  title: "JPMorgan Chase MIDAS Integration",
+  subtitle: "Advanced Software Engineering Virtual Experience",
+  description:
+    "Completed JPMorgan's Advanced Software Engineering Forage program, building a microservices architecture for the MIDAS platform. Integrated external services, implemented REST APIs, and orchestrated multi-service communication using Spring Boot and Java.",
+  problem: "Enterprise systems require robust service integration, error handling, and scalable architecture patterns to ensure reliable data flow across distributed components.",
+  impact: "Successfully integrated 5+ external services into the MIDAS core platform, implementing production-grade exception handling, API contracts, and service orchestration following JPMorgan's engineering standards.",
+  tech: ["Java", "Spring Boot", "REST APIs", "Microservices", "Maven"],
+  github: "https://github.com/Neel654/Forage-Midas_654",
+  featured: true,
+  type: "Backend",
+},
+{
+  id: 8,
+  title: "SafeSense",
+  subtitle: "Universal Biomechanics & Safety Platform",
+  description:
+    "Built a multi-modal AI safety application running entirely in-browser using computer vision and motion sensors. Features three modes: GYM (real-time form correction with rep counting and symmetry analysis), DRIVE (fatigue detection via facial tracking), and LIFE (fall detection using accelerometer data with emergency response simulation).",
+  problem: "Expensive wearables create barriers to safety tech. I wanted to leverage sensors already in phones and laptops to provide real-time health and safety monitoring without privacy risks or costly hardware.",
+  impact: "Delivered a privacy-first, client-side solution processing video and motion data locally via WebAssembly. Implemented 3-phase fall detection algorithm, voice coaching for workouts, and driver alertness monitoring—all accessible via any modern browser.",
+  tech: ["JavaScript", "MediaPipe", "Computer Vision", "Web APIs", "HTML5"],
+  github: "https://github.com/Neel654/SafeSense",
+  featured: true,
+  type: "Full-Stack",
+},
+{
+  id: 9,
+  title: "Personal Portfolio Website",
+  subtitle: "Modern React Portfolio with Tailwind CSS",
+  description:
+    "Designed and developed a responsive personal portfolio website using React and Vite. Features custom components for project showcases, interactive UI elements, and optimized build configuration for deployment on Vercel. Implements modern frontend best practices with component-based architecture and utility-first CSS.",
+  problem: "Needed a professional online presence to showcase technical projects, skills, and experience in an engaging, performant way that reflects attention to detail and modern web development standards.",
+  impact: "Created a fast, accessible portfolio site with smooth animations and responsive design. Deployed with CI/CD pipeline for instant updates, serving as a central hub for recruiters and collaborators to explore my work.",
+  tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
+  github: "https://github.com/Neel654/neel-portfolio",
+  featured: true,
+  type: "Full-Stack",
+},
+{
+  id: 10,
+  title: "AI MUSE",
+  subtitle: "Voice-Powered Conversational AI Companion",
+  description:
+    "Built a full-stack voice assistant with real-time speech recognition, contextual conversation memory, and web-augmented responses. Features desktop Python backend with Llama 3 integration and a cross-platform React Native mobile app. The system uses speech-to-text transcription, intelligent web search triggers, and text-to-speech synthesis to create natural, flowing conversations.",
+  problem: "Most AI assistants feel transactional and robotic. I wanted to build a genuinely conversational companion that remembers context, asks follow-up questions, and seamlessly blends personal chat with web knowledge.",
+  impact: "Deployed a multi-platform AI assistant supporting voice interactions with persistent conversation history, SerpAPI web search integration for real-time information, and custom prompt engineering to maintain engaging, friend-like dialogue. Mobile app built with Expo enables on-the-go access.",
+  tech: ["Python", "Llama 3", "FastAPI", "React Native", "Expo", "Speech APIs"],
+  github: "https://github.com/Neel654/AI_MUSE",
+  featured: true,
+  type: "Full-Stack",
+}
 ];
 
 export const experience = [

@@ -95,7 +95,7 @@ export default function About() {
               </div>
               <div>
                 <div className="text-white text-sm">{personal.location}</div>
-                <div className="text-[#8899AA] text-xs">Open to remote & hybrid roles</div>
+                <div className="text-[#8899AA] text-xs">Open to remote & hybrid roles across Canada</div>
               </div>
             </div>
           </div>
