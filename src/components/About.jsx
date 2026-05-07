@@ -2,7 +2,7 @@ import useInView from "../hooks/useInView";
 import { personal } from "../data/portfolio";
 
 const stats = [
-  { value: "4+", label: "Projects Shipped" },
+  { value: "6+", label: "Projects Shipped" },
   { value: "2", label: "Hackathons" },
   { value: "100%", label: "Test Coverage on Systems Work" },
   { value: "50k+", label: "Rows Analyzed" },

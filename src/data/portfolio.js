@@ -17,20 +17,31 @@ export const skills = [
   },
   {
     category: "Databases",
-    items: [
-      "PostgreSQL","MySQL","SQLite","MongoDB","Redis","Snowflake","NoSQL"],
+    items: ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Redis", "Snowflake", "NoSQL"],
   },
   {
     category: "Backend & Systems",
-    items: ["React.js", "Node.js", "FastAPI", "Selenium", "Cypress", "OpenAI API", "Spring Boot", "PostgreSQL", "Redis", "Docker", "Linux"],
+    items: ["Node.js", "FastAPI", "Spring Boot", "REST APIs", "Microservices", "Docker", "Linux", "Redis", "Maven"],
+  },
+  {
+    category: "Frontend & Mobile",
+    items: ["React.js", "React Native", "Vite", "Tailwind CSS", "HTML5", "Expo", "Web APIs"],
   },
   {
     category: "Data & Analytics",
-    items: ["Pandas", "NumPy", "Matplotlib", "Scikit-learn", "PyTorch", "Jupyter", "SQLite", "Spark"],
+    items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "GeoPandas", "Scikit-learn", "PyTorch", "Jupyter", "NLTK", "Spark"],
+  },
+  {
+    category: "AI & ML",
+    items: ["OpenAI API", "Llama 3", "MediaPipe", "Computer Vision", "Speech APIs", "PyTorch", "Scikit-learn"],
   },
   {
     category: "Tools & DevOps",
-    items: ["Git", "GitHub Actions", "Vercel", "AWS (S3, EC2)", "Postman", "VS Code"],
+    items: ["Git", "GitHub Actions", "Vercel", "AWS (S3, EC2)", "Postman", "VS Code", "Selenium", "Cypress"],
+  },
+  {
+    category: "Specialized",
+    items: ["Asyncio", "Threading", "SSE", "Bloom Filters", "Concurrency", "OOP Design"],
   },
 ];
 
