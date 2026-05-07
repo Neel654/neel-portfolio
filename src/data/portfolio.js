@@ -69,7 +69,7 @@ export const projects = [
     impact: "Handles 100+ concurrent task timers with <5ms scheduling drift. Cut my missed deadlines to zero.",
     tech: ["Python", "Threading", "SQLite", "Plyer", "Priority Queue", "Daemon Threads"],
     github: "https://github.com/neel/task-reminder",
-    featured: true,
+    featured: false,
     type: "Automation",
   },
   {
@@ -82,7 +82,7 @@ export const projects = [
     impact: "Identified 3 statistically undervalued neighbourhoods with >15% predicted appreciation. Analysis shared as a public notebook.",
     tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter", "GeoPandas"],
     github: "https://github.com/neel/toronto-housing",
-    featured: true,
+    featured: false,
     type: "Data",
   },
   {
@@ -108,7 +108,7 @@ export const projects = [
   impact: "Continuously monitors multiple RSS feeds with intelligent deduplication. Delivers instant sentiment scores and summaries, enabling users to track breaking news and sentiment shifts as they happen.",
   tech: ["Python", "FastAPI", "NLTK", "SSE", "JavaScript", "Asyncio"],
   github: "https://github.com/Neel654/AI_News_Streamer",
-  featured: true,
+  featured: false,
   type: "Data",
 },
 {
@@ -121,7 +121,7 @@ export const projects = [
   impact: "Built a complete terminal-based system with 20+ custom exception handlers for edge cases, OOP design patterns for extensibility, and robust address validation supporting both rides and deliveries across multiple city zones.",
   tech: ["Java", "OOP Design", "CLI", "Exception Handling", "Data Structures"],
   github: "https://github.com/Neel654/TmUber",
-  featured: true,
+  featured: false,
   type: "Backend",
 },
 {
@@ -134,7 +134,7 @@ export const projects = [
   impact: "Successfully integrated 5+ external services into the MIDAS core platform, implementing production-grade exception handling, API contracts, and service orchestration following JPMorgan's engineering standards.",
   tech: ["Java", "Spring Boot", "REST APIs", "Microservices", "Maven"],
   github: "https://github.com/Neel654/Forage-Midas_654",
-  featured: true,
+  featured: false,
   type: "Backend",
 },
 {
@@ -160,7 +160,7 @@ export const projects = [
   impact: "Created a fast, accessible portfolio site with smooth animations and responsive design. Deployed with CI/CD pipeline for instant updates, serving as a central hub for recruiters and collaborators to explore my work.",
   tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
   github: "https://github.com/Neel654/neel-portfolio",
-  featured: true,
+  featured: false,
   type: "Full-Stack",
 },
 {
