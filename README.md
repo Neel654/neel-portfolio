@@ -1,16 +1,25 @@
 # 💼 Neel’s Developer Portfolio
 
-> **Single‑page portfolio site** showcasing my software engineering projects, skills, and experience, built with a modern React‑style Vite + Tailwind stack and deployed on Vercel. 
+Modern single-page developer portfolio built to showcase my software engineering projects, technical skills, experience, and contact information through a fast, responsive, production-ready web application.
 
-[![Live Site](https://img.shields.io/badge/PORTFOLIO-View%20Live-success?style=for-the-badge&logo=vercel)](https://neel-portfolio-five.vercel.app/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Vite](https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/) [![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Live Site](https://img.shields.io/badge/PORTFOLIO-View%20Live-success?style=for-the-badge&logo=netlify)](https://neelprajapati.netlify.app/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Vite](https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/) [![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
 ---
 
-## 🚀 Overview
+## 🎯 Project Overview
 
-This repository contains the source code for my personal developer portfolio at **neel-portfolio-five.vercel.app**. It is a responsive single‑page web app that highlights my top projects, tech stack, work experience, and contact links for recruiters and collaborators. 
+This portfolio serves as a centralized platform to present my:
+- 🚀 Software engineering projects
+- 💻 Technical skills & tech stack
+- 📚 Education and experience
+- 🔗 Professional links and contact information
 
-The project uses **Vite** for fast local development, **TailwindCSS** for styling, and is wired for seamless deployment to **Vercel** using `vercel.json` and a standard Vite build pipeline. 
+The application is designed with a strong focus on:
+- Responsive UI/UX
+- Fast performance
+- Clean modern design
+- Recruiter-friendly navigation
+- Easy scalability for future projects and sections
 
 ---
 
@@ -18,40 +27,43 @@ The project uses **Vite** for fast local development, **TailwindCSS** for stylin
 
 ```text
 ┌────────────────────────────┐
-│        Browser UI          │
-│   (Desktop / Mobile)       │
+│      Browser / Client      │
+│    Desktop & Mobile UI     │
 └─────────────┬──────────────┘
               │
               ▼
-      ┌────────────────┐
-      │   Vite + JS    │
-      │  SPA Frontend  │
-      └────────┬───────┘
-               │
-               ▼
 ┌────────────────────────────┐
-│   Portfolio Components     │
-│  - Hero / About            │
-│  - Projects Showcase       │
-│  - Skills & Tech Stack     │
-│  - Experience / Timeline   │
-│  - Contact / Links         │
+│      Vite Frontend SPA     │
+│   JavaScript + Tailwind    │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌────────────────────────────┐
+│    Portfolio Components    │
+├────────────────────────────┤
+│ • Hero Section             │
+│ • About Me                 │
+│ • Projects Showcase        │
+│ • Skills Grid              │
+│ • Experience Timeline      │
+│ • Contact Links            │
 └────────────────────────────┘
 ```
 
-All content is static and front‑end only, making it fast, simple to host, and easy to iterate as I add new projects or experience. 
+The site is entirely front-end based and deployed as a static web application for fast loading and simple deployment workflows.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-| Layer            | Details                               |
-|-----------------|----------------------------------------|
-| Framework / Tool | Vite front‑end build tooling          |
-| Language        | JavaScript (ES6+)                     |
-| Styling         | TailwindCSS utility‑first styling     |
-| Markup          | HTML (via Vite template)              |
-| Deployment      | Vercel static hosting & CI            |
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | JavaScript (ES6+) |
+| **Build Tool** | Vite |
+| **Styling** | TailwindCSS |
+| **Markup** | HTML5 |
+| **Deployment** | Netlify |
+| **Version Control** | Git + GitHub |
 
 ---
 
@@ -59,78 +71,145 @@ All content is static and front‑end only, making it fast, simple to host, and 
 
 ```text
 neel-portfolio/
-├── public/              # Static assets (favicons, images, etc.) 
-├── src/                 # Main portfolio source code (components, sections) 
-├── index.html           # Root HTML entry point 
-├── package.json         # Scripts and dependencies 
-├── package-lock.json    # Locked dependency versions 
-├── tailwind.config.js   # TailwindCSS configuration 
-├── postcss.config.js    # PostCSS pipeline for Tailwind 
-├── vite.config.js       # Vite configuration 
-├── vercel.json          # Vercel deployment config 
-└── .gitignore           # Git ignore rules 
+├── public/                 # Static assets
+├── src/                    # Main source code
+│   ├── components/         # Reusable UI components
+│   ├── sections/           # Portfolio page sections
+│   ├── data/               # Project & skills data
+│   └── assets/             # Images and icons
+├── index.html              # Application entry point
+├── package.json            # Dependencies and scripts
+├── vite.config.js          # Vite configuration
+├── tailwind.config.js      # TailwindCSS configuration
+├── postcss.config.js       # PostCSS setup
+└── .gitignore              # Git ignored files
 ```
-
-This structure mirrors a modern front‑end app and makes it easy to extend with more sections or animations later. 
 
 ---
 
-## ⚙️ Getting Started (Local Development)
+## 🚀 Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/Neel654/neel-portfolio.git
-   cd neel-portfolio
-   ```
+### Prerequisites
+- Node.js 18+
+- npm or pnpm
 
-2. **Install dependencies**  
-   ```bash
-   npm install
-   # or
-   pnpm install
-   ```
+### Installation & Setup
 
-3. **Run the dev server**  
-   ```bash
-   npm run dev
-   ```
+1. **Clone the repository**
+```bash
+git clone https://github.com/Neel654/neel-portfolio.git
+cd neel-portfolio
+```
 
-4. **Open in your browser**  
-   Vite will print a local URL like `http://localhost:5173`. Open it to view and edit the portfolio. 
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Run the development server**
+```bash
+npm run dev
+```
+
+4. **Open the application**
+```text
+http://localhost:5173
+```
 
 ---
 
 ## 🌐 Deployment
 
-The portfolio is deployed on **Vercel**, using Vite’s static build output. 
+The portfolio is deployed on **Netlify** using Vite’s production build output.
 
-Typical flow:
+### Deployment Workflow
+1. Push changes to the `main` branch
+2. Netlify automatically detects updates
+3. Build command executes:
+```bash
+npm run build
+```
+4. The generated static files are deployed automatically
 
-1. Push commits to the `main` branch on GitHub.  
-2. Vercel automatically pulls the repo, runs `npm install` and `npm run build`.   
-3. The static build from Vite is hosted at **neel-portfolio-five.vercel.app** and updated on every push. 
+Live Website:
+```text
+https://neelprajapati.netlify.app/
+```
 
-You can customize deployment behavior through `vercel.json` as needed (for example, build command and output directory). 
+---
+
+## ✨ Features
+
+### Portfolio Highlights
+- Responsive modern UI
+- Smooth scrolling navigation
+- Mobile-first design
+- Interactive project showcase
+- Skills and technology section
+- Professional experience timeline
+- Social and contact integration
+
+### Performance Focus
+- Fast Vite build pipeline
+- Optimized static deployment
+- Lightweight frontend architecture
+- Clean reusable component structure
 
 ---
 
-## 💡 What this portfolio highlights
+## 📌 Featured Projects
 
-The live site is designed to make it easy for a recruiter to understand me in under a minute:
+Projects highlighted in the portfolio include:
+- 🛡️ SafeSense — AI-powered biomechanics safety platform
+- ⚡ WarpKV-Java — LSM-tree key-value database engine
+- 📊 Analytics & backend engineering projects
+- ☁️ Cloud / DevOps focused applications
 
-- A concise **intro / hero** section with who I am and what I do.  
-- A **projects section** linking to repositories like SafeSense, WarpKV‑Java, and your analytics / backend work.  
-- A **skills grid** for languages, frameworks, tools, and cloud/devops experience.  
-- A short **experience / education** section.  
-- Clear **contact links** (email, LinkedIn, GitHub).  
-
-Each section is laid out to be scannable on both desktop and mobile. 
+Each project links to a dedicated GitHub repository with:
+- Technical architecture
+- Setup instructions
+- Documentation
+- Screenshots and demos
 
 ---
+
 ## 🔍 For Recruiters
 
-If you’re viewing this repo from my resume or LinkedIn:
+This portfolio is designed to provide a quick and clear overview of:
+- My software engineering abilities
+- Project experience
+- Technical stack
+- Development workflow
+- UI/UX implementation skills
 
-- The **live site** at `https://neelprajapati.netlify.app/` is the best place to see my work aggregated.   
-- Each featured project links back to a **well‑documented GitHub repository** with architecture, tech stack, and setup instructions.  
-- This repo demonstrates how I structure and ship a **production‑ready front‑end** with modern tooling and deployment.
+Live Portfolio:
+```text
+https://neelprajapati.netlify.app/
+```
+
+GitHub Profile:
+```text
+https://github.com/Neel654
+```
+
+LinkedIn:
+```text
+https://www.linkedin.com/in/neel-prajapati-3337b9289/
+```
+
+---
+
+## 📄 License
+
+This project is open for learning and portfolio demonstration purposes.
+
+---
+
+## 👤 Author
+
+**Neel Prajapati**  
+Computer Science Student @ Toronto Metropolitan University
+
+---
+
+⭐ Feel free to explore the repository, open issues, or connect with me!
