@@ -127,19 +127,10 @@ The live site is designed to make it easy for a recruiter to understand me in un
 Each section is laid out to be scannable on both desktop and mobile. 
 
 ---
-
-## 📄 Resume‑ready description
-
-Use something like this on your resume or LinkedIn:
-
-> Built and deployed a responsive single‑page developer portfolio using Vite, TailwindCSS, and JavaScript, showcasing backend, systems, and AI projects with automated deployments to Vercel. 
-
----
-
 ## 🔍 For Recruiters
 
 If you’re viewing this repo from my resume or LinkedIn:
 
-- The **live site** at `neel-portfolio-five.vercel.app` is the best place to see my work aggregated.   
+- The **live site** at `https://neelprajapati.netlify.app/` is the best place to see my work aggregated.   
 - Each featured project links back to a **well‑documented GitHub repository** with architecture, tech stack, and setup instructions.  
 - This repo demonstrates how I structure and ship a **production‑ready front‑end** with modern tooling and deployment.
