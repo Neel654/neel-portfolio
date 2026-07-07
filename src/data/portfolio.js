@@ -223,22 +223,32 @@ export const experience = [
 
 export const achievements = [
   {
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "AWS Training & Certification",
+    year: "2026",
+    description:
+      "Completed foundational training in AWS cloud computing, covering core services, cloud architecture, security, IAM, pricing, billing, and AWS global infrastructure.",
+  },
+  {
     title: "Cybersecurity Program",
     issuer: "Mastercard (Forage)",
     year: "2026",
-    description: "Identified phishing threats and designed security awareness training for business teams",
+    description:
+      "Identified phishing threats and designed security awareness training for business teams.",
   },
   {
     title: "Data Analytics Job Simulation",
     issuer: "Deloitte (Forage)",
     year: "2025",
-    description: "Built Tableau dashboards and analyzed data to generate business insights",
+    description:
+      "Built Tableau dashboards and analyzed data to generate business insights.",
   },
   {
     title: "Quantitative Research Experience",
     issuer: "J.P. Morgan (Forage)",
     year: "2025",
-    description: "Applied predictive modeling to estimate default risk using Python and financial data",
+    description:
+      "Applied predictive modeling to estimate default risk using Python and financial data.",
   },
 ];
 
